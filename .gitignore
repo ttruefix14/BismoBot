@@ -1,0 +1,10 @@
+*.[oa]
+*~
+*.log
+/.debug
+/venv
+/test.ipynb
+**__pycache__
+/gitall
+/gitall.sh
+/token.py
