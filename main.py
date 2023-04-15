@@ -27,7 +27,7 @@ async def process_help_command(message: types.Message):
     conn = http.client.HTTPConnection("ifconfig.me")
     conn.request("GET", "/ip")
     serverIP = conn.getresponse().read().decode('utf-8')
-    with open('/etc/ssh/ssh_config') as ssh:
+    with open('/etc/ssh/sshd_config') as ssh:
         port = re.search(r'Port ([0-9]+)', ssh.read()).group(1)
     await message.reply(f'{serverIP}:{port}')
 
