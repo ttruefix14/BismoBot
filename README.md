@@ -2,12 +2,14 @@
 
 Инструкция для применения:
 
-    - Создать файл "token.py" в папке "config" и записать в него токен своего телеграм-бота в формате "TOKEN = 'token'".
+    - Создать файл "token.py" в папке "config" и записать в него токен 
+      своего телеграм-бота в формате "TOKEN = 'token'".
 
     - Создать виртуальное окружение при помощи команды "python -m venv venv"
 
     - Активировать виртуальное окружение командой "source venv/bin/activate"
 
-    - Установить необходимые библиотеки командой "pip install --upgrade pip && pip install -r requirements.txt"
+    - Установить необходимые библиотеки командой 
+      "pip install --upgrade pip && pip install -r requirements.txt"
 
     - Запустить бота командой "python main.py"
